@@ -1,0 +1,51 @@
+2025-09-16T17:19:24.508+03:00  INFO 16898 --- [testNSergeev] [main] c.e.t.TestNSergeevApplication            : Starting TestNSergeevApplication using Java 24.0.2 with PID 16898 (/home/nik/projects/testIntrumNSergeev/target/classes started by nik in /home/nik/projects/testIntrumNSergeev)
+2025-09-16T17:19:24.512+03:00  INFO 16898 --- [testNSergeev] [main] c.e.t.TestNSergeevApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-09-16T17:19:26.118+03:00  INFO 16898 --- [testNSergeev] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-16T17:19:26.230+03:00  INFO 16898 --- [testNSergeev] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2025-09-16T17:19:27.071+03:00  INFO 16898 --- [testNSergeev] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-16T17:19:27.095+03:00  INFO 16898 --- [testNSergeev] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-16T17:19:27.096+03:00  INFO 16898 --- [testNSergeev] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-16T17:19:27.168+03:00  INFO 16898 --- [testNSergeev] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-16T17:19:27.169+03:00  INFO 16898 --- [testNSergeev] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2567 ms
+2025-09-16T17:19:27.436+03:00  INFO 16898 --- [testNSergeev] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-16T17:19:27.679+03:00  INFO 16898 --- [testNSergeev] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2287395
+2025-09-16T17:19:27.682+03:00  INFO 16898 --- [testNSergeev] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-16T17:19:27.873+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.database                       : Set default schema name to public
+2025-09-16T17:19:28.607+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.changelog                      : Reading from public.databasechangelog
+2025-09-16T17:19:28.714+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.ui                             : Database is up to date, no changesets to execute
+2025-09-16T17:19:28.717+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.changelog                      : Reading from public.databasechangelog
+2025-09-16T17:19:28.730+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.util                           : UPDATE SUMMARY
+2025-09-16T17:19:28.731+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.util                           : Run:                          0
+2025-09-16T17:19:28.732+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.util                           : Previously run:               2
+2025-09-16T17:19:28.732+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.util                           : Filtered out:                 0
+2025-09-16T17:19:28.733+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.util                           : -------------------------------
+2025-09-16T17:19:28.733+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.util                           : Total change sets:            2
+2025-09-16T17:19:28.734+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.util                           : Update summary generated
+2025-09-16T17:19:28.737+03:00  INFO 16898 --- [testNSergeev] [main] liquibase.command                        : Command execution complete
+2025-09-16T17:19:30.056+03:00  INFO 16898 --- [testNSergeev] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-16T17:19:30.145+03:00  INFO 16898 --- [testNSergeev] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-16T17:19:30.205+03:00  INFO 16898 --- [testNSergeev] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-16T17:19:30.606+03:00  INFO 16898 --- [testNSergeev] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-16T17:19:30.787+03:00  INFO 16898 --- [testNSergeev] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-16T17:19:31.926+03:00  INFO 16898 --- [testNSergeev] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-16T17:19:31.971+03:00  INFO 16898 --- [testNSergeev] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16T17:19:32.470+03:00  WARN 16898 --- [testNSergeev] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-16T17:19:32.896+03:00  INFO 16898 --- [testNSergeev] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-16T17:19:32.909+03:00  INFO 16898 --- [testNSergeev] [main] c.e.t.TestNSergeevApplication            : Started TestNSergeevApplication in 9.397 seconds (process running for 10.06)
+2025-09-16T17:19:56.954+03:00  INFO 16898 --- [testNSergeev] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-16T17:19:56.954+03:00  INFO 16898 --- [testNSergeev] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-16T17:19:56.957+03:00  INFO 16898 --- [testNSergeev] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-09-16T17:19:57.148+03:00  INFO 16898 --- [testNSergeev] [http-nio-8080-exec-2] c.e.t.usecasses.impl.WalletServiceImp    : Success DEPOSIT. Wallet id is 54932c93-3482-446b-b52f-337f71d7a764, Date: 2025-09-16T17:19:57.148459907
+2025-09-16T17:19:57.157+03:00  INFO 16898 --- [testNSergeev] [http-nio-8080-exec-2] c.e.t.usecasses.impl.WalletServiceImp    : Success UPDATE operation. Wallet id is 54932c93-3482-446b-b52f-337f71d7a764, Date: 2025-09-16T17:19:57.157695260
+2025-09-16T17:20:23.028+03:00  INFO 16898 --- [testNSergeev] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-16T17:20:23.035+03:00  INFO 16898 --- [testNSergeev] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-16T17:20:23.039+03:00  INFO 16898 --- [testNSergeev] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-16T17:20:23.043+03:00  INFO 16898 --- [testNSergeev] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-16T17:20:23.054+03:00  INFO 16898 --- [testNSergeev] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
