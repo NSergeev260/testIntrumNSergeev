@@ -46,7 +46,14 @@ Postgresql
 * Docker
 
 # Environment variables
-.env
+.env:
+CLIENT_URL=http://localhost:3000
+DATABASE_USERNAME=admin
+DATABASE_PASSWORD=test
+DATABASE_PORT=5432
+DATABASE_NAME=wallet-db
+DATABASE_URL=jdbc:postgresql://localhost:${DATABASE_PORT}/${DATABASE_NAME}
+SERVER_PORT=8080
 
 # Docker Setup
 ...
